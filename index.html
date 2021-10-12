@@ -1,199 +1,802 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <title>My Portfolio | Santi Rahayu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Santi Rahayu - My Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
 
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#">Santi Rahayu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#page-top">Santi Rahayu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars ms-1"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Company</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/santiRahayu.jpg" alt="Santi Rahayu" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Santi Rahayu</h1>
-      <p class="lead">Software Engineer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,160L48,181.3C96,203,192,245,288,229.3C384,213,480,139,576,117.3C672,96,768,128,864,149.3C960,171,1056,181,1152,154.7C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir Jumbotron -->
-
-    <!-- About -->
-    <section id="about">
+    <!-- Masthead-->
+    <header class="masthead">
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat alias minus recusandae quas quos nulla. Aliquid quod aperiam eos sit?</p>
-          </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium inventore neque dolores quos eos commodi at, pariatur iste repellat accusamus molestias aspernatur minima porro dolorum!</p>
-          </div>
-        </div>
+        <img class="mx-auto rounded-circle" src="assets/img/Profile/santiRahayu.jpg" alt="..." style="width: 250px" />
+        <div class="masthead-subheading">Welcome To My Portfolio</div>
+        <div class="masthead-subheading" style="font-size: 1.25rem">Santi Rahayu | software Engineer</div>
+        <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
+        <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,138.7C672,160,768,192,864,208C960,224,1056,224,1152,192C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir About -->
+    </header>
 
-    <!-- Project -->
-    <section id="project">
+    <!-- Services-->
+    <section class="page-section" id="services">
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">Berikut adalah deskripsi singkat mengenai diri saya.</h3>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project/project-1.jpg" class="card-img-top" alt="Project 1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project/project-2.jpg" class="card-img-top" alt="Project 2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project/project-3.jpg" class="card-img-top" alt="Project 3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project/project-4.jpg" class="card-img-top" alt="Project 4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project/project-4.jpg" class="card-img-top" alt="Project 4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,154.7C672,128,768,128,864,149.3C960,171,1056,213,1152,224C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- Akhir Project -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
         <div class="row text-center">
-          <div class="col">
-            <h2>Contact Me</h2>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Education</h4>
+            <p class="text-muted">S1 Teknik Informatika - STMIK Indonesia Mandiri Bandung (2021)</p>
+            <p class="text-muted">D3 Manajemen Informatika - Universitas Nasional PASIM Bandung (2017)</p>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Competence</h4>
+            <p class="text-muted">Software Development</p>
+            <p class="text-muted">ASP.NET MVC, ASP.NET MVC Core C#, JQuery, SQL Server</p>
+            <p class="text-muted">Desktop and Web App Dev, Entity Framework, Entitiy Framework Core</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-user-circle fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Profile</h4>
+            <p class="text-muted">Selalu tertarik mempelajarai hal-hal baru.</p>
+            <p class="text-muted">Memiliki kemampuan berorganisasi dan bersosialisasi yang baik sehingga mudah dalam menjalin kerjasama (team work).</p>
+            <p class="text-muted">Memiliki motivasi yang tinggi sehingga pantang menyerah ketika menghadapi masalah.</p>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,288L48,288C96,288,192,288,288,288C384,288,480,288,576,266.7C672,245,768,203,864,202.7C960,203,1056,245,1152,229.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
-    <!-- Akhir Contact -->
 
-    <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="" class="text-white fw-bold">Santi Rahayu</a></p>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Projects</h2>
+          <h3 class="section-subheading text-muted">Berikut adalah project - project yang pernah di kerjakan.</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-1.1.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">TGI FIMS</div>
+                <div class="portfolio-caption-subheading text-muted">Facility Integrity Management System (FIMS)</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 2-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-2.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">SESD SHE</div>
+                <div class="portfolio-caption-subheading text-muted">Safety Health Environment (SHE) System Application</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 3-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-3.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">WW.MM</div>
+                <div class="portfolio-caption-subheading text-muted">Wayang Windu Material Master</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-4.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">WW PIR</div>
+                <div class="portfolio-caption-subheading text-muted">Performance Improvement Request</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 5-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-5.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">LPG Management</div>
+                <div class="portfolio-caption-subheading text-muted">maintenance dan monitoring pergerakan tabung LPG pertamina</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 6-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-6.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">PLN Gas & Geothermal Project Management</div>
+                <div class="portfolio-caption-subheading text-muted">Aplikasi monitoring project PLN Gas dan Geotherma</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 7-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-7.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Petronas RPM</div>
+                <div class="portfolio-caption-subheading text-muted">Equipment Reliability Performance Monitoring Application</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 8-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-8.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">OJK-SIGEO</div>
+                <div class="portfolio-caption-subheading text-muted">Sistem Informasi Geografis Lembaga Jasa Keuangan Non Bank</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 9-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-9.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Bobaweb</div>
+                <div class="portfolio-caption-subheading text-muted">Website Custom</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 10-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal10">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/Project-10.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">MDS CSA</div>
+                <div class="portfolio-caption-subheading text-muted">Consignment System Application</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About-->
+    <section class="page-section" id="about">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Experience</h2>
+          <h3 class="section-subheading text-muted">Berikut adalah pengalaman kerja saya hingga sekarang.</h3>
+        </div>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/company/rekadia.webp" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Mei 2018 - Sekarang</h4>
+                <h4 class="subheading">PT Rekadia Solusi Teknologi</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Saya mulai bekerja di PT Rekadia Solusi Teknologi pada Mei 2018 hingga saat ini sebagai full stack developer, selain itu juga saya pernah menjadi presales untuk product power BI tetapi hanya beberapa bulan saja.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/company/ultimo.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Januari 2018 - April 2018</h4>
+                <h4 class="subheading">PT Memori Netindo Jaya (Ultimo Sulution)</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Saya mulai bekerja di Ultimo Solution sejak januari 2018 hingga april 2018 sebagai web developer.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/company/indivara.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>November 2016 - Desember 2017</h4>
+                <h4 class="subheading">Indivara Group - PT Pradipta Jatis Indonesia</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Saya mulai bekerja di PT Pradipta Jatis Indonesia sejak november 2016 hingga desember 2017 sebagai .Net developer.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>
+                Be Part
+                <br />
+                Of My
+                <br />
+                Story!
+              </h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">My Amazing Team</h2>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Profile/Rekadia.jpg" alt="..." />
+              <h4>PT Rekadia Solusi Teknologi</h4>
+              <p class="text-muted">Bandung</p>
+              <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Profile/Ultimo.jpeg" alt="..." />
+              <h4>PT Memori Netindo Jaya (Ultimo Sulution)</h4>
+              <p class="text-muted">Bandung</p>
+              <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Profile/PJI.jpg" alt="..." />
+              <h4>Indivara Group - PT Pradipta Jatis Indonesia</h4>
+              <p class="text-muted">Jakarta</p>
+              <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Setiap team memberikan kesan yang mendalam, ilmu dan pengalaman yang di dapat selalu memiliki tempat di hati dan ingatan meski telah tak lagi dalam satu naungan project yang sama.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients-->
+    <!-- <div class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 col-sm-6 my-3">
+            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
+          </div>
+          <div class="col-md-3 col-sm-6 my-3">
+            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." /></a>
+          </div>
+          <div class="col-md-3 col-sm-6 my-3">
+            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
+          </div>
+          <div class="col-md-3 col-sm-6 my-3">
+            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Footer-->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-lg-start">Copyright &copy; Santi Rahayu 2021</div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/santi_rahayu16/"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/santi.rahayu.925"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/santi-rahayu-27a838130/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/6289610386882"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <p>Created with <i class="fas fa-heart text-danger"></i> by Santi Rahayu</p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!-- Akhir Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Portfolio Modals-->
+
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">TGI FIMS</h2>
+                  <p class="item-intro text-muted">Facility Integrity Management System (FIMS).</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-1.png" alt="..." />
+                  <p>
+                    Facility Integrity Management System (FIMS) adalah sistem yang efektif untuk mengelola integritas FASILITAS TGI di seluruh siklus hidupnya mulai dari saat dirancang, dibangun, dipasang, dan selama digunakan (operasi,
+                    pemeliharaan, perbaikan, perubahan, penilaian, dll.), dan decommissioning. FIMS memungkinkan inspeksi (penilaian integritas) dan sumber daya lainnya untuk dioptimalkan, mengurangi waktu henti, dan memastikan bahwa ada
+                    kontrol yang tepat dari semua FASILITAS TGI. FIMS memusatkan perhatian pada masalah keandalan dan integritas yang tinggi yang dihasilkan dari analisis terperinci menggunakan Metodologi Terpadu berikut:
+                  </p>
+                  <p>a. Risk Based Inspection (RBI) addresses the failure mode “fail to contain”.</p>
+                  <p>b. Reliability Centered Maintenance (RCM) for monitoring of reliability and safety of rotating equipment and their components and electrical systems.</p>
+                  <p>c. Safety Lifecycle Model & Functional Safety Management System is used for the evaluation of Safety systems, electric, electronic, programmable electronic systems and instrumented protective functions.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      PT Transportasi Gas Indonesia
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">SESD SHE</h2>
+                  <p class="item-intro text-muted">Safety Health Environment (SHE) System Application</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-2.png" alt="..." />
+                  <p>Aplikasi yang dirancang untuk monitoring insiden kecelakaan kerja karyawan PT Star Energy Salak Darajat.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Star Energy Salak Darajat
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">WW MM</h2>
+                  <p class="item-intro text-muted">Wayang Windu Material Master.</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-3.1.png" alt="..." />
+                  <p>Aplikasi yang dirancang untuk mengengola data material master di Star Energy Wayang Windu.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Star Energy Wayang Windu
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">WW PIR</h2>
+                  <p class="item-intro text-muted">Performance Improvement Request</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-4.png" alt="..." />
+                  <p>
+                    PIR (Performance Improvement Request) adalah aplikasi untuk mencatat proses audit mulai dari request sampai dengan closing pada perusahaan wayang windu star energy, dimana audit ini terbagi menjadi beberapa kategori,
+                    yaitu IIR ( Incident Investigation Report), Internal Audit dan External Audit.
+                  </p>
+                  <p>Aplikasi ini berfungsi untuk memberikan informasi mengenai KPI perusahaan baik perusahaan secara keseluruhan, Business Process (Department) atau pekerja sehingga dapat menentukan kebijakan yang akan diambil.</p>
+                  <p>
+                    Flow utama Initiator melakukan request PIR dengan mengisi form sesuai dengan kategori. Process Owner menindak lanjuti hasil temuan yang telah di request oleh initiator. Verificator memverifikasi dan melakukan closing
+                    audit / temuan yang telah di tindak lanjuti oleh process owner.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Star Energy Wayang Windu
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">LPG Management</h2>
+                  <p class="item-intro text-muted">maintenance dan monitoring pergerakan tabung LPG pertamina</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-5.1.png" alt="..." />
+                  <p>Aplikasi maintenance dan monitoring pergerakan tabung LPG pertamina.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Pertamina
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">PLN Gas & Geothermal Project Management</h2>
+                  <p class="item-intro text-muted">Aplikasi monitoring project PLN Gas dan Geotherma</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-6.1.png" alt="..." />
+                  <p>Aplikasi monitoring project PLN Gas dan Geothermal</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      PLN Gas & Geothermal
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 7 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Petronas RPM</h2>
+                  <p class="item-intro text-muted">Equipment Reliability Performance Monitoring Application</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-7.1.png" alt="..." />
+                  <p>Aplikasi yang dirancang untuk menganalisis satu peralatan tunggal atau Satuan Pengganti Jalur yang ditetapkan dengan riwayat pemeliharaan tertentu</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Petronas Carigali Indonesia
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 8 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">OJK - SIGEO</h2>
+                  <p class="item-intro text-muted">Sistem Informasi Geografis Lembaga Jasa Keuangan Non Bank</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-8.1.png" alt="..." />
+                  <p>
+                    Sistem Informasi Geografis Lembaga Jasa Keuangan Non Bank (SIGEO). SIGEO merupakan suatu Sistem Informasi yang dapat menampilkan informasi bereferensi geografis yaitu sebaran data profil maupun data keuangan LJKNB di
+                    daerah tertentu.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Otoritas Jasa Keuangan Indonesia
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Rekadia Solusi Teknologi
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 9 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Bobaweb</h2>
+                  <p class="item-intro text-muted">Website Custom</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-9.png" alt="..." />
+                  <p>
+                    Membuat website sesuai keinginan customer, beberapa website yang pernah di buat adalah Glowishessence, reliveherb, www.mezzolearning.com, val-valeriethomas.com, lostandfoundshoppe.com, wyneandblair.com,
+                    michelleoksana.com, tryhansen.com
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Customer yang membutuhkan website
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Memori Netindo Jaya
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio item 10 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">MDS CSA</h2>
+                  <p class="item-intro text-muted">Consignment System Application</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Project-10.png" alt="..." />
+                  <p>
+                    Aplikasi ini di bangun untuk menghitung pembagian hasil penjualan antara Matahari Department Store dan supplier. Mengolah data yang diambil dari transaksi harian dari toko MDS di seluruh Indonesia untuk di olah dan
+                    dikirimkan kembali ke aplikasi OFA untuk di olah
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Client:</strong>
+                      Matahari Department Store
+                    </li>
+                    <li>
+                      <strong>Company:</strong>
+                      PT Pradipta Jatis Indonesia
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
